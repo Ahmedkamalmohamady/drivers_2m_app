@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "255525619538",
+    "project_id": "delivery-app-2m",
+    "storage_bucket": "delivery-app-2m.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255525619538:android:82a94272ffe8493ac11c8b",
+        "android_client_info": {
+          "package_name": "com.speed.drivers2mapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255525619538-qrbltubk28po1up4jlb3jq410jnsekmo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWGmNwe_x0SdXwRC2LERMsY2MLosj4eb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255525619538-qrbltubk28po1up4jlb3jq410jnsekmo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
