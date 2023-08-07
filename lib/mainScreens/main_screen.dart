@@ -6,16 +6,14 @@ import 'package:flutter/material.dart';
 
 class MainScreen extends StatefulWidget
 {
-  const MainScreen({super.key});
-
   @override
-  MainScreenState createState() => MainScreenState();
+  _MainScreenState createState() => _MainScreenState();
 }
 
 
 
 
-class MainScreenState extends State<MainScreen> with SingleTickerProviderStateMixin
+class _MainScreenState extends State<MainScreen> with SingleTickerProviderStateMixin
 {
   TabController? tabController;
   int selectedIndex = 0;

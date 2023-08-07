@@ -10,15 +10,13 @@ import 'package:fluttertoast/fluttertoast.dart';
 
 class SignUpScreen extends StatefulWidget
 {
-  const SignUpScreen({super.key});
-
   @override
-  SignUpScreenState createState() => SignUpScreenState();
+  _SignUpScreenState createState() => _SignUpScreenState();
 }
 
 
 
-class SignUpScreenState extends State<SignUpScreen>
+class _SignUpScreenState extends State<SignUpScreen>
 {
   TextEditingController nameTextEditingController = TextEditingController();
   TextEditingController emailTextEditingController = TextEditingController();
@@ -67,7 +65,7 @@ class SignUpScreenState extends State<SignUpScreen>
         password: passwordTextEditingController.text.trim(),
       ).catchError((msg){
         Navigator.pop(context);
-        Fluttertoast.showToast(msg: "Error: $msg");
+        Fluttertoast.showToast(msg: "Error: " + msg.toString());
       })
     ).user;
 

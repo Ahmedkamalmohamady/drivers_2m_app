@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:drivers_2m_app/authentication/login_screen.dart';
+import 'package:drivers_2m_app/authentication/signup_screen.dart';
 import 'package:drivers_2m_app/global/global.dart';
 import 'package:drivers_2m_app/mainScreens/main_screen.dart';
 import 'package:flutter/material.dart';
@@ -11,12 +12,12 @@ class MySplashScreen extends StatefulWidget
   const MySplashScreen({Key? key}) : super(key: key);
 
   @override
-  MySplashScreenState createState() => MySplashScreenState();
+  _MySplashScreenState createState() => _MySplashScreenState();
 }
 
 
 
-class MySplashScreenState extends State<MySplashScreen>
+class _MySplashScreenState extends State<MySplashScreen>
 {
 
   startTimer()
